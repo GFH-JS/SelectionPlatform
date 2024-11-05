@@ -1,0 +1,812 @@
+{
+  "proofData": {
+    "partloadLoadPoint": {
+      "paramName": "partloadLoadPoint",
+      "paramValue": "partload",
+      "paramUnit": "",
+      "paramComboxValue": []
+    },
+    "capacity": {
+      "paramName": "capacity",
+      "paramValue": "703.0",
+      "paramUnit": "kW",
+      "paramComboxValue": []
+    },
+    "capacityC": {
+      "paramName": "capacity",
+      "paramValue": "3600",
+      "paramUnit": "kW",
+      "paramComboxValue": []
+    },
+    "inputPwoer": {
+      "paramName": "inputPwoer",
+      "paramValue": "380V/3N/50Hz",
+      "paramUnit": "V",
+      "paramComboxValue": [
+        {
+          "label": "380V/3N/50Hz",
+          "value": "380V/3N/50Hz",
+          "selected": true
+        }
+      ]
+    },
+    "starterType": {
+      "paramName": "starterType",
+      "paramValue": "VFD",
+      "paramUnit": "",
+      "paramComboxValue": [
+        {
+          "label": "VFD",
+          "value": "VFD",
+          "selected": true
+        }
+      ]
+    },
+    "starterTypeC": {
+      "paramName": "starterType",
+      "paramValue": "SS",
+      "paramUnit": "",
+      "paramComboxValue": [
+        {
+          "label": "SS",
+          "value": "SS",
+          "selected": true
+        }
+      ]
+    },
+    "mountingType": {
+      "paramName": "mountingType",
+      "paramValue": "Unit Mounted",
+      "paramUnit": "",
+      "paramComboxValue": [
+        {
+          "label": "Unit Mounted",
+          "value": "Unit Mounted",
+          "selected": true
+        }
+      ]
+    },
+    "chillerCode": {
+      "paramName": "chillerCode",
+      "paramValue": "TWMF0200.1CC1",
+      "paramUnit": "",
+      "paramComboxValue": [
+        {
+          "label": "TWMF0100.1CC1",
+          "value": "TWMF0100.1CC1",
+          "selected": false
+        },
+        {
+          "label": "TWMF0130.1CC1",
+          "value": "TWMF0130.1CC1",
+          "selected": false
+        },
+        {
+          "label": "TWMF0150.1CC1",
+          "value": "TWMF0150.1CC1",
+          "selected": false
+        },
+        {
+          "label": "TWMF0180.1CC1",
+          "value": "TWMF0180.1CC1",
+          "selected": false
+        },
+        {
+          "label": "TWMF0200.1CC1",
+          "value": "TWMF0200.1CC1",
+          "selected": true
+        }
+      ]
+    },
+    "evaflowEwt": {
+      "paramName": "evaflowEwt",
+      "paramValue": "FLOW+LWT",
+      "paramUnit": "",
+      "paramComboxValue": []
+    },
+    "evaflow": {
+      "paramName": "evaflow",
+      "paramValue": "33.59",
+      "paramUnit": "l/s",
+      "paramComboxValue": []
+    },
+    "evaewt": {
+      "paramName": "evaewt",
+      "paramValue": 12.00,
+      "paramUnit": "℃",
+      "paramComboxValue": []
+    },
+    "evalwt": {
+      "paramName": "evalwt",
+      "paramValue": 7.00,
+      "paramUnit": "℃",
+      "paramComboxValue": []
+    },
+    "evapass": {
+      "paramName": "evapass",
+      "paramValue": "4",
+      "paramUnit": "",
+      "paramComboxValue": [
+        {
+          "label": "4",
+          "value": "4",
+          "selected": true
+        }
+      ]
+    },
+    "evapassC": {
+      "paramName": "evapass",
+      "paramValue": "2",
+      "paramUnit": "",
+      "paramComboxValue": [
+        {
+          "label": "1",
+          "value": "1",
+          "selected": false
+        },
+        {
+          "label": "2",
+          "value": "2",
+          "selected": true
+        }
+      ]
+    },
+    "evafoulingfactor": {
+      "paramName": "evafoulingfactor",
+      "paramValue": "0.0180",
+      "paramUnit": "℃·m²/kW",
+      "paramComboxValue": []
+    },
+    "evafluidType": {
+      "paramName": "evafluidType",
+      "paramValue": "Water",
+      "paramUnit": "",
+      "paramComboxValue": [
+        {
+          "label": "Water",
+          "value": "Water",
+          "selected": true
+        }
+      ]
+    },
+    "evaglycolQty": {
+      "paramName": "evaglycolQty",
+      "paramValue": "0",
+      "paramUnit": "%",
+      "paramComboxValue": []
+    },
+    "evadesignPressure": {
+      "paramName": "evadesignPressure",
+      "paramValue": "1.0",
+      "paramUnit": "MPa",
+      "paramComboxValue": [
+        {
+          "label": "1.0",
+          "value": "1.0",
+          "selected": true
+        },
+        {
+          "label": "1.6",
+          "value": "1.6",
+          "selected": false
+        }
+      ]
+    },
+    "condflowEwt": {
+      "paramName": "condflowEwt",
+      "paramValue": "FLOW+EWT",
+      "paramUnit": "",
+      "paramComboxValue": []
+    },
+    "condflow": {
+      "paramName": "condflow",
+      "paramValue": "41.98",
+      "paramUnit": "l/s",
+      "paramComboxValue": []
+    },
+    "condewt": {
+      "paramName": "condewt",
+      "paramValue": 30.00,
+      "paramUnit": "℃",
+      "paramComboxValue": []
+    },
+    "condlwt": {
+      "paramName": "condlwt",
+      "paramValue": 35.00,
+      "paramUnit": "℃",
+      "paramComboxValue": []
+    },
+    "condpass": {
+      "paramName": "condpass",
+      "paramValue": "4",
+      "paramUnit": "",
+      "paramComboxValue": [
+        {
+          "label": "4",
+          "value": "4",
+          "selected": true
+        }
+      ]
+    },
+    "condpassC": {
+      "paramName": "condpass",
+      "paramValue": "2",
+      "paramUnit": "",
+      "paramComboxValue": [
+        {
+          "label": "1",
+          "value": "1",
+          "selected": false
+        },
+        {
+          "label": "2",
+          "value": "2",
+          "selected": true
+        }
+      ]
+    },
+    "condfoulingfactor": {
+      "paramName": "condfoulingfactor",
+      "paramValue": "0.0440",
+      "paramUnit": "℃·m²/kW",
+      "paramComboxValue": []
+    },
+    "condfluidType": {
+      "paramName": "condfluidType",
+      "paramValue": "Water",
+      "paramUnit": "",
+      "paramComboxValue": [
+        {
+          "label": "Water",
+          "value": "Water",
+          "selected": true
+        }
+      ]
+    },
+    "condglycolQty": {
+      "paramName": "condglycolQty",
+      "paramValue": "0",
+      "paramUnit": "%",
+      "paramComboxValue": []
+    },
+    "conddesignPressure": {
+      "paramName": "conddesignPressure",
+      "paramValue": "1.0",
+      "paramUnit": "MPa",
+      "paramComboxValue": [
+        {
+          "label": "1.0",
+          "value": "1.0",
+          "selected": true
+        },
+        {
+          "label": "1.6",
+          "value": "1.6",
+          "selected": false
+        }
+      ]
+    },
+    "partloadType": {
+      "paramName": "partloadType",
+      "paramValue": "VPF AHRI(550/590) Condenser Relief",
+      "paramUnit": "",
+      "paramComboxValue": [
+        {
+          "label": "AHRI(550/590) Condenser Relief",
+          "value": "AHRI(550/590) Condenser Relief",
+          "selected": true
+        },
+        {
+          "label": "GB Condenser Relief",
+          "value": "GB Condenser Relief",
+          "selected": false
+        },
+        {
+          "label": "VPF(Evap&Cond)",
+          "value": "VPF(Evap&Cond)",
+          "selected": false
+        },
+        {
+          "label": "User Defined",
+          "value": "User Defined",
+          "selected": false
+        },
+        {
+          "label": "AHRI(550/590)",
+          "value": "AHRI(550/590)",
+          "selected": false
+        },
+        {
+          "label": "GB Condition",
+          "value": "GB Condition",
+          "selected": false
+        },
+        {
+          "label": "Constant Condenser EWT",
+          "value": "Constant Condenser EWT",
+          "selected": false
+        },
+        {
+          "label": "VPF AHRI(550/590) Condenser Relief",
+          "value": "VPF AHRI(550/590) Condenser Relief",
+          "selected": false
+        }
+
+      ]
+    },
+    "count": {
+      "paramName": "count",
+      "paramValue": "10",
+      "paramUnit": "",
+      "paramComboxValue": [
+        {
+          "label": "1",
+          "value": "1",
+          "selected": false
+        },
+        {
+          "label": "4",
+          "value": "4",
+          "selected": false
+        },
+        {
+          "label": "10",
+          "value": "10",
+          "selected": true
+        }
+      ]
+    },
+    "evaporatorVpfMin": {
+      "paramName": "evaporatorVpfMin",
+      "paramValue": "50",
+      "paramUnit": "%",
+      "paramComboxValue": []
+    },
+    "condenserVpfMin": {
+      "paramName": "condenserVpfMin",
+      "paramValue": "70",
+      "paramUnit": "%",
+      "paramComboxValue": []
+    },
+    "gb19577": {
+      "paramName": "gb19577",
+      "paramValue": "None",
+      "paramUnit": "",
+      "paramComboxValue": [
+        {
+          "label": "None",
+          "value": "None",
+          "selected": true
+        },
+        {
+          "label": "GB",
+          "value": "GB",
+          "selected": false
+        },
+        {
+          "label": "Special",
+          "value": "Special",
+          "selected": false
+        }
+      ]
+    },
+    "gb19577Capacity": {
+      "paramName": "gb19577Capacity",
+      "paramValue": "703.0",
+      "paramUnit": "kW",
+      "paramComboxValue": []
+    },
+    "gb55015": {
+      "paramName": "gb55015",
+      "paramValue": "None",
+      "paramUnit": "",
+      "paramComboxValue": [
+        {
+          "label": "None",
+          "value": "None",
+          "selected": true
+        },
+        {
+          "label": "Special",
+          "value": "Special",
+          "selected": false
+        }
+      ]
+    },
+    "gb55015Capacity": {
+      "paramName": "gb55015Capacity",
+      "paramValue": "703.0",
+      "paramUnit": "kW",
+      "paramComboxValue": []
+    },
+    "technicalData": {
+      "paramName": "technicalData",
+      "paramValue": "",
+      "paramUnit": "",
+      "paramComboxValue": [
+        {
+          "label": "serviceData",
+          "value": "serviceData",
+          "selected": true
+        },
+        {
+          "label": "physical",
+          "value": "physical",
+          "selected": true
+        },
+        {
+          "label": "electrical",
+          "value": "electrical",
+          "selected": true
+        },
+        {
+          "label": "powerFactor",
+          "value": "powerFactor",
+          "selected": true
+        },
+        {
+          "label": "soundData",
+          "value": "soundData",
+          "selected": true
+        },
+        {
+          "label": "drive",
+          "value": "drive",
+          "selected": true
+        },
+        {
+          "label": "copCurve",
+          "value": "copCurve",
+          "selected": true
+        }
+      ]
+    },
+    "calculationType": {
+      "paramName": "calculationType",
+      "paramValue": "Standard Performance",
+      "paramUnit": "",
+      "paramComboxValue": [
+        {
+          "label": "Standard Performance",
+          "value": "Standard Performance",
+          "selected": true
+        },
+        {
+          "label": "Customer Performance",
+          "value": "Customer Performance",
+          "selected": false
+        }
+      ]
+    },
+    "maxPercentLoad": {
+      "paramName": "maxPercentLoad",
+      "paramValue": "100",
+      "paramUnit": "",
+      "paramComboxValue": []
+    },
+    "maxCewt": {
+      "paramName": "maxCewt",
+      "paramValue": "32",
+      "paramUnit": "",
+      "paramComboxValue": []
+    },
+    "maxElwt": {
+      "paramName": "maxElwt",
+      "paramValue": "10",
+      "paramUnit": "",
+      "paramComboxValue": []
+    },
+    "minPercentLoad": {
+      "paramName": "minPercentLoad",
+      "paramValue": "10",
+      "paramUnit": "",
+      "paramComboxValue": []
+    },
+    "minCewt": {
+      "paramName": "minCewt",
+      "paramValue": "22",
+      "paramUnit": "",
+      "paramComboxValue": []
+    },
+    "minElwt": {
+      "paramName": "minElwt",
+      "paramValue": "6",
+      "paramUnit": "",
+      "paramComboxValue": []
+    },
+    "stepPercentLoad": {
+      "paramName": "stepPercentLoad",
+      "paramValue": "10",
+      "paramUnit": "",
+      "paramComboxValue": []
+    },
+    "stepCewt": {
+      "paramName": "stepCewt",
+      "paramValue": "1",
+      "paramUnit": "",
+      "paramComboxValue": []
+    },
+    "stepElwt": {
+      "paramName": "stepElwt",
+      "paramValue": "1",
+      "paramUnit": "",
+      "paramComboxValue": []
+    },
+
+    "chillerType": {
+      "paramName": "chillerType",
+      "paramValue": "TWCS",
+      "paramUnit": "",
+      "paramComboxValue": [
+        {
+          "label": "TWCS",
+          "value": "TWCS",
+          "selected": true
+        }
+      ]
+    },
+    "impellerFamily": {
+      "paramName": "impellerFamily",
+      "paramValue": "320",
+      "paramUnit": "",
+      "paramComboxValue": [
+        {
+          "label": "320",
+          "value": "320",
+          "selected": true
+        }
+      ]
+    },
+    "impellerWidth": {
+      "paramName": "impellerWidth",
+      "paramValue": "A",
+      "paramUnit": "",
+      "paramComboxValue": [
+        {
+          "label": "A",
+          "value": "A",
+          "selected": true
+        },
+        {
+          "label": "B",
+          "value": "B",
+          "selected": false
+        }
+      ]
+    },
+    "gear": {
+      "paramName": "gear",
+      "paramValue": "2P",
+      "paramUnit": "",
+      "paramComboxValue": [
+        {
+          "label": "2P",
+          "value": "2P",
+          "selected": true
+        },
+        {
+          "label": "2N",
+          "value": "2N",
+          "selected": false
+        },
+        {
+          "label": "2M",
+          "value": "2M",
+          "selected": false
+        }
+      ]
+    },
+    "compresserNumber": {
+      "paramName": "compresserNumber",
+      "paramValue": "S",
+      "paramUnit": "",
+      "paramComboxValue": [
+        {
+          "label": "S",
+          "value": "S",
+          "selected": true
+        }
+      ]
+    },
+    "stageNumber": {
+      "paramName": "stageNumber",
+      "paramValue": "S",
+      "paramUnit": "",
+      "paramComboxValue": [
+        {
+          "label": "S",
+          "value": "S",
+          "selected": true
+        }
+      ]
+    },
+    "moter": {
+      "paramName": "moter",
+      "paramValue": "72",
+      "paramUnit": "",
+      "paramComboxValue": [
+        {
+          "label": "72",
+          "value": "72",
+          "selected": true
+        },
+        {
+          "label": "80",
+          "value": "80",
+          "selected": true
+        },
+        {
+          "label": "89",
+          "value": "89",
+          "selected": true
+        }
+      ]
+    },
+    "evaType": {
+      "paramName": "evaType",
+      "paramValue": "F",
+      "paramUnit": "",
+      "paramComboxValue": [
+        {
+          "label": "F",
+          "value": "F",
+          "selected": true
+        }
+      ]
+    },
+    "evaDia": {
+      "paramName": "evaDia",
+      "paramValue": "90",
+      "paramUnit": "",
+      "paramComboxValue": [
+        {
+          "label": "90",
+          "value": "90",
+          "selected": true
+        },
+        {
+          "label": "97",
+          "value": "97",
+          "selected": false
+        }
+      ]
+    },
+    "evaLength": {
+      "paramName": "evaLength",
+      "paramValue": "36",
+      "paramUnit": "",
+      "paramComboxValue": [
+        {
+          "label": "36",
+          "value": "36",
+          "selected": true
+        }
+      ]
+    },
+    "evaTubeNum": {
+      "paramName": "evaTubeNum",
+      "paramValue": "2",
+      "paramUnit": "",
+      "paramComboxValue": [
+        {
+          "label": "2",
+          "value": "2",
+          "selected": true
+        },
+        {
+          "label": "3",
+          "value": "3",
+          "selected": false
+        },
+        {
+          "label": "4",
+          "value": "4",
+          "selected": false
+        }
+      ]
+    },
+    "evaTubeType": {
+      "paramName": "evaTubeType",
+      "paramValue": "H",
+      "paramUnit": "",
+      "paramComboxValue": [
+        {
+          "label": "H",
+          "value": "H",
+          "selected": true
+        },
+        {
+          "label": "K",
+          "value": "K",
+          "selected": false
+        }
+      ]
+    },
+    "condType": {
+      "paramName": "condType",
+      "paramValue": "C",
+      "paramUnit": "",
+      "paramComboxValue": [
+        {
+          "label": "C",
+          "value": "C",
+          "selected": true
+        }
+      ]
+    },
+    "condDia": {
+      "paramName": "condDia",
+      "paramValue": "90",
+      "paramUnit": "",
+      "paramComboxValue": [
+        {
+          "label": "90",
+          "value": "90",
+          "selected": true
+        },
+        {
+          "label": "10",
+          "value": "10",
+          "selected": false
+        }
+      ]
+    },
+    "condLength": {
+      "paramName": "condLength",
+      "paramValue": "36",
+      "paramUnit": "",
+      "paramComboxValue": [
+        {
+          "label": "36",
+          "value": "36",
+          "selected": true
+        }
+      ]
+    },
+    "condTubeNum": {
+      "paramName": "condTubeNum",
+      "paramValue": "2",
+      "paramUnit": "",
+      "paramComboxValue": [
+        {
+          "label": "1",
+          "value": "1",
+          "selected": false
+        },
+        {
+          "label": "2",
+          "value": "2",
+          "selected": true
+        },
+        {
+          "label": "3",
+          "value": "3",
+          "selected": false
+        },
+        {
+          "label": "4",
+          "value": "4",
+          "selected": false
+        }
+      ]
+    },
+    "condTubeType": {
+      "paramName": "condTubeType",
+      "paramValue": "K",
+      "paramUnit": "",
+      "paramComboxValue": [
+        {
+          "label": "K",
+          "value": "K",
+          "selected": true
+        },
+        {
+          "label": "M",
+          "value": "M",
+          "selected": false
+        }
+      ]
+    },
+    "partloadDatalists": []
+  }
+}

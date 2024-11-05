@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>bin\Release\net8.0\publish\</_PublishTargetUrl>
+    <History>True|2024-09-20T08:52:03.6446275Z||;False|2024-09-12T15:55:56.6508033+08:00||;True|2024-09-01T15:41:46.3619900+08:00||;True|2024-09-01T14:43:02.5132579+08:00||;True|2024-08-31T14:43:23.8069827+08:00||;True|2024-08-29T17:40:47.6964079+08:00||;True|2024-08-29T11:40:36.2411668+08:00||;True|2024-08-29T11:24:31.0974028+08:00||;True|2024-08-28T13:15:39.8274934+08:00||;True|2024-08-28T10:33:44.6505299+08:00||;True|2024-08-28T08:46:05.0606425+08:00||;True|2024-08-27T11:23:36.1108629+08:00||;True|2024-08-26T11:23:56.2213570+08:00||;True|2024-08-22T17:02:15.8411550+08:00||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include=".dockerignore">
+      <publishTime>08/22/2024 16:18:19</publishTime>
+    </File>
+    <File Include="Dockerfile">
+      <publishTime>09/20/2024 16:53:02</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

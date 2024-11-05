@@ -1,0 +1,259 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="System.Linq.Dynamic.Core" Version="1.4.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SelectionPlatform.IRepository\SelectionPlatform.IRepository.csproj" />
+    <ProjectReference Include="..\SelectionPlatform.Models\SelectionPlatform.Models.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="App.Common">
+      <HintPath>D:\Users\010254\Desktop\离心机数据\调用DLL\调用DLL\.NET8引用\App.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Centrifugal.Rating.Model">
+      <HintPath>D:\Users\010254\Desktop\离心机数据\调用DLL\调用DLL\.NET8引用\Centrifugal.Rating.Model.dll</HintPath>
+    </Reference>
+    <Reference Include="Chiller.Core">
+      <HintPath>D:\Users\010254\Desktop\离心机数据\调用DLL\调用DLL\.NET8引用\Chiller.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Chiller.Enumerations">
+      <HintPath>D:\Users\010254\Desktop\离心机数据\调用DLL\调用DLL\.NET8引用\Chiller.Enumerations.dll</HintPath>
+    </Reference>
+    <Reference Include="Chiller.Units.New">
+      <HintPath>D:\Users\010254\Desktop\离心机数据\调用DLL\调用DLL\.NET8引用\Chiller.Units.New.dll</HintPath>
+    </Reference>
+    <Reference Include="Chiller.WaterProperties">
+      <HintPath>D:\Users\010254\Desktop\离心机数据\调用DLL\调用DLL\.NET8引用\Chiller.WaterProperties.dll</HintPath>
+    </Reference>
+    <Reference Include="ClientTools">
+      <HintPath>D:\Users\010254\Desktop\离心机数据\调用DLL\调用DLL\.NET8引用\ClientTools.dll</HintPath>
+    </Reference>
+    <Reference Include="CN.Price">
+      <HintPath>D:\Users\010254\Desktop\离心机数据\调用DLL\调用DLL\.NET8引用\CN.Price.dll</HintPath>
+    </Reference>
+    <Reference Include="Common">
+      <HintPath>D:\Users\010254\Desktop\离心机数据\调用DLL\调用DLL\.NET8引用\Common.dll</HintPath>
+    </Reference>
+    <Reference Include="ComponentFilterBase">
+      <HintPath>D:\Users\010254\Desktop\离心机数据\调用DLL\调用DLL\.NET8引用\ComponentFilterBase.dll</HintPath>
+    </Reference>
+    <Reference Include="ComponentFilters">
+      <HintPath>D:\Users\010254\Desktop\离心机数据\调用DLL\调用DLL\.NET8引用\ComponentFilters.dll</HintPath>
+    </Reference>
+    <Reference Include="Compressori">
+      <HintPath>D:\Users\010254\Desktop\离心机数据\调用DLL\调用DLL\.NET8引用\Compressori.dll</HintPath>
+    </Reference>
+    <Reference Include="Core">
+      <HintPath>D:\Users\010254\Desktop\离心机数据\调用DLL\调用DLL\.NET8引用\Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Core.RefrigerantProperties.ADC">
+      <HintPath>D:\Users\010254\Desktop\离心机数据\调用DLL\调用DLL\.NET8引用\Core.RefrigerantProperties.ADC.dll</HintPath>
+    </Reference>
+    <Reference Include="Correction">
+      <HintPath>D:\Users\010254\Desktop\离心机数据\调用DLL\调用DLL\.NET8引用\Correction.dll</HintPath>
+    </Reference>
+    <Reference Include="Daikin.McQuay.Data.XmlSerializableTypes">
+      <HintPath>D:\Users\010254\Desktop\离心机数据\调用DLL\调用DLL\.NET8引用\Daikin.McQuay.Data.XmlSerializableTypes.dll</HintPath>
+    </Reference>
+    <Reference Include="Daikin.McQuay.Engines.Chiller.Core.Units">
+      <HintPath>D:\Users\010254\Desktop\离心机数据\调用DLL\调用DLL\.NET8引用\Daikin.McQuay.Engines.Chiller.Core.Units.dll</HintPath>
+    </Reference>
+    <Reference Include="Daikin.McQuay.Engines.Units">
+      <HintPath>D:\Users\010254\Desktop\离心机数据\调用DLL\调用DLL\.NET8引用\Daikin.McQuay.Engines.Units.dll</HintPath>
+    </Reference>
+    <Reference Include="Daikin.McQuay.MathTools">
+      <HintPath>D:\Users\010254\Desktop\离心机数据\调用DLL\调用DLL\.NET8引用\Daikin.McQuay.MathTools.dll</HintPath>
+    </Reference>
+    <Reference Include="Daikin.McQuay.Pricing">
+      <HintPath>D:\Users\010254\Desktop\离心机数据\调用DLL\调用DLL\.NET8引用\Daikin.McQuay.Pricing.dll</HintPath>
+    </Reference>
+    <Reference Include="Data.Cache">
+      <HintPath>D:\Users\010254\Desktop\离心机数据\调用DLL\调用DLL\.NET8引用\Data.Cache.dll</HintPath>
+    </Reference>
+    <Reference Include="DataClass">
+      <HintPath>D:\Users\010254\Desktop\离心机数据\调用DLL\调用DLL\.NET8引用\DataClass.dll</HintPath>
+    </Reference>
+    <Reference Include="EnergyStandards">
+      <HintPath>D:\Users\010254\Desktop\离心机数据\调用DLL\调用DLL\.NET8引用\EnergyStandards.dll</HintPath>
+    </Reference>
+    <Reference Include="Enumerations">
+      <HintPath>D:\Users\010254\Desktop\离心机数据\调用DLL\调用DLL\.NET8引用\Enumerations.dll</HintPath>
+    </Reference>
+    <Reference Include="EPPlus">
+      <HintPath>D:\Users\010254\Desktop\离心机数据\调用DLL\调用DLL\.NET8引用\EPPlus.dll</HintPath>
+    </Reference>
+    <Reference Include="FrictionlessCompressorWrapper">
+      <HintPath>D:\Users\010254\Desktop\离心机数据\调用DLL\调用DLL\.NET8引用\FrictionlessCompressorWrapper.dll</HintPath>
+    </Reference>
+    <Reference Include="LifeCycleCost">
+      <HintPath>D:\Users\010254\Desktop\离心机数据\调用DLL\调用DLL\.NET8引用\LifeCycleCost.dll</HintPath>
+    </Reference>
+    <Reference Include="LimitiFunzionamento">
+      <HintPath>D:\Users\010254\Desktop\离心机数据\调用DLL\调用DLL\.NET8引用\LimitiFunzionamento.dll</HintPath>
+    </Reference>
+    <Reference Include="MathUtility">
+      <HintPath>D:\Users\010254\Desktop\离心机数据\调用DLL\调用DLL\.NET8引用\MathUtility.dll</HintPath>
+    </Reference>
+    <Reference Include="McQuay.MST.Engines.Units">
+      <HintPath>D:\Users\010254\Desktop\离心机数据\调用DLL\调用DLL\.NET8引用\McQuay.MST.Engines.Units.dll</HintPath>
+    </Reference>
+    <Reference Include="McQuay.Util.DigitalSign.Validator">
+      <HintPath>D:\Users\010254\Desktop\离心机数据\调用DLL\调用DLL\.NET8引用\McQuay.Util.DigitalSign.Validator.dll</HintPath>
+    </Reference>
+    <Reference Include="Messages">
+      <HintPath>D:\Users\010254\Desktop\离心机数据\调用DLL\调用DLL\.NET8引用\Messages.dll</HintPath>
+    </Reference>
+    <Reference Include="OilFilled.TwoStage.VintageB">
+      <HintPath>D:\Users\010254\Desktop\离心机数据\调用DLL\调用DLL\.NET8引用\OilFilled.TwoStage.VintageB.dll</HintPath>
+    </Reference>
+    <Reference Include="PrgUtility">
+      <HintPath>D:\Users\010254\Desktop\离心机数据\调用DLL\调用DLL\.NET8引用\PrgUtility.dll</HintPath>
+    </Reference>
+    <Reference Include="Properties.Common">
+      <HintPath>D:\Users\010254\Desktop\离心机数据\调用DLL\调用DLL\.NET8引用\Properties.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="RefrFluidi">
+      <HintPath>D:\Users\010254\Desktop\离心机数据\调用DLL\调用DLL\.NET8引用\RefrFluidi.dll</HintPath>
+    </Reference>
+    <Reference Include="Refrigerantion.Chiller">
+      <HintPath>D:\Users\010254\Desktop\离心机数据\调用DLL\调用DLL\.NET8引用\Refrigerantion.Chiller.dll</HintPath>
+    </Reference>
+    <Reference Include="RefrigerantProperties.ADC">
+      <HintPath>D:\Users\010254\Desktop\离心机数据\调用DLL\调用DLL\.NET8引用\RefrigerantProperties.ADC.dll</HintPath>
+    </Reference>
+    <Reference Include="RefrigerantProperties.Common">
+      <HintPath>D:\Users\010254\Desktop\离心机数据\调用DLL\调用DLL\.NET8引用\RefrigerantProperties.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="RefrigerantProperties.MST">
+      <HintPath>D:\Users\010254\Desktop\离心机数据\调用DLL\调用DLL\.NET8引用\RefrigerantProperties.MST.dll</HintPath>
+    </Reference>
+    <Reference Include="RefrigerantProperties.NIST">
+      <HintPath>D:\Users\010254\Desktop\离心机数据\调用DLL\调用DLL\.NET8引用\RefrigerantProperties.NIST.dll</HintPath>
+    </Reference>
+    <Reference Include="RestSharp">
+      <HintPath>D:\Users\010254\Desktop\离心机数据\调用DLL\调用DLL\.NET8引用\RestSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Server">
+      <HintPath>D:\Users\010254\Desktop\离心机数据\调用DLL\调用DLL\.NET8引用\Server.dll</HintPath>
+    </Reference>
+    <Reference Include="SMARDT">
+      <HintPath>D:\Users\010254\Desktop\离心机数据\调用DLL\调用DLL\.NET8引用\SMARDT.dll</HintPath>
+    </Reference>
+    <Reference Include="Spire.License">
+      <HintPath>D:\Users\010254\Desktop\离心机数据\调用DLL\调用DLL\.NET8引用\Spire.License.dll</HintPath>
+    </Reference>
+    <Reference Include="Streamlining">
+      <HintPath>D:\Users\010254\Desktop\离心机数据\调用DLL\调用DLL\.NET8引用\Streamlining.dll</HintPath>
+    </Reference>
+    <Reference Include="TechDataClass">
+      <HintPath>D:\Users\010254\Desktop\离心机数据\调用DLL\调用DLL\.NET8引用\TechDataClass.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>D:\Users\010254\Desktop\离心机数据\调用DLL\调用DLL\.NET8引用\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="Validator">
+      <HintPath>D:\Users\010254\Desktop\离心机数据\调用DLL\调用DLL\.NET8引用\Validator.dll</HintPath>
+    </Reference>
+    <Reference Include="WaterCooled">
+      <HintPath>D:\Users\010254\Desktop\离心机数据\调用DLL\调用DLL\.NET8引用\WaterCooled.dll</HintPath>
+    </Reference>
+    <Reference Include="WaterCooled.Centrifugal">
+      <HintPath>D:\Users\010254\Desktop\离心机数据\调用DLL\调用DLL\.NET8引用\WaterCooled.Centrifugal.dll</HintPath>
+    </Reference>
+    <Reference Include="WaterCooled.Centrifugal.ApplicationResultProcessors">
+      <HintPath>D:\Users\010254\Desktop\离心机数据\调用DLL\调用DLL\.NET8引用\WaterCooled.Centrifugal.ApplicationResultProcessors.dll</HintPath>
+    </Reference>
+    <Reference Include="WaterCooled.Centrifugal.ClientTools">
+      <HintPath>D:\Users\010254\Desktop\离心机数据\调用DLL\调用DLL\.NET8引用\WaterCooled.Centrifugal.ClientTools.dll</HintPath>
+    </Reference>
+    <Reference Include="WaterCooled.Centrifugal.Corrections.Engineering">
+      <HintPath>D:\Users\010254\Desktop\离心机数据\调用DLL\调用DLL\.NET8引用\WaterCooled.Centrifugal.Corrections.Engineering.dll</HintPath>
+    </Reference>
+    <Reference Include="WaterCooled.Centrifugal.Corrections.Marketing">
+      <HintPath>D:\Users\010254\Desktop\离心机数据\调用DLL\调用DLL\.NET8引用\WaterCooled.Centrifugal.Corrections.Marketing.dll</HintPath>
+    </Reference>
+    <Reference Include="WaterCooled.Centrifugal.Data">
+      <HintPath>D:\Users\010254\Desktop\离心机数据\调用DLL\调用DLL\.NET8引用\WaterCooled.Centrifugal.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="WaterCooled.Centrifugal.HeatExchange">
+      <HintPath>D:\Users\010254\Desktop\离心机数据\调用DLL\调用DLL\.NET8引用\WaterCooled.Centrifugal.HeatExchange.dll</HintPath>
+    </Reference>
+    <Reference Include="WaterCooled.Centrifugal.HSC">
+      <HintPath>D:\Users\010254\Desktop\离心机数据\调用DLL\调用DLL\.NET8引用\WaterCooled.Centrifugal.HSC.dll</HintPath>
+    </Reference>
+    <Reference Include="WaterCooled.Centrifugal.Log">
+      <HintPath>D:\Users\010254\Desktop\离心机数据\调用DLL\调用DLL\.NET8引用\WaterCooled.Centrifugal.Log.dll</HintPath>
+    </Reference>
+    <Reference Include="WaterCooled.Centrifugal.Log.Data">
+      <HintPath>D:\Users\010254\Desktop\离心机数据\调用DLL\调用DLL\.NET8引用\WaterCooled.Centrifugal.Log.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="WaterCooled.Centrifugal.MagneticBearing.SingleStage">
+      <HintPath>D:\Users\010254\Desktop\离心机数据\调用DLL\调用DLL\.NET8引用\WaterCooled.Centrifugal.MagneticBearing.SingleStage.dll</HintPath>
+    </Reference>
+    <Reference Include="WaterCooled.Centrifugal.MagneticBearing.TwoStage">
+      <HintPath>D:\Users\010254\Desktop\离心机数据\调用DLL\调用DLL\.NET8引用\WaterCooled.Centrifugal.MagneticBearing.TwoStage.dll</HintPath>
+    </Reference>
+    <Reference Include="WaterCooled.Centrifugal.MagneticBearing.TwoStageCompressor.CPRVintage">
+      <HintPath>D:\Users\010254\Desktop\离心机数据\调用DLL\调用DLL\.NET8引用\WaterCooled.Centrifugal.MagneticBearing.TwoStageCompressor.CPRVintage.dll</HintPath>
+    </Reference>
+    <Reference Include="WaterCooled.Centrifugal.MagneticBearing.TwoStageCompressor.VintageC">
+      <HintPath>D:\Users\010254\Desktop\离心机数据\调用DLL\调用DLL\.NET8引用\WaterCooled.Centrifugal.MagneticBearing.TwoStageCompressor.VintageC.dll</HintPath>
+    </Reference>
+    <Reference Include="WaterCooled.Centrifugal.MixedTubeEvaporator">
+      <HintPath>D:\Users\010254\Desktop\离心机数据\调用DLL\调用DLL\.NET8引用\WaterCooled.Centrifugal.MixedTubeEvaporator.dll</HintPath>
+    </Reference>
+    <Reference Include="WaterCooled.Centrifugal.OilFilled.DualCompressor">
+      <HintPath>D:\Users\010254\Desktop\离心机数据\调用DLL\调用DLL\.NET8引用\WaterCooled.Centrifugal.OilFilled.DualCompressor.dll</HintPath>
+    </Reference>
+    <Reference Include="WaterCooled.Centrifugal.OilFilled.SeriesCounterFlow">
+      <HintPath>D:\Users\010254\Desktop\离心机数据\调用DLL\调用DLL\.NET8引用\WaterCooled.Centrifugal.OilFilled.SeriesCounterFlow.dll</HintPath>
+    </Reference>
+    <Reference Include="WaterCooled.Centrifugal.OilFilled.SeriesCounterFlowTwoStage">
+      <HintPath>D:\Users\010254\Desktop\离心机数据\调用DLL\调用DLL\.NET8引用\WaterCooled.Centrifugal.OilFilled.SeriesCounterFlowTwoStage.dll</HintPath>
+    </Reference>
+    <Reference Include="WaterCooled.Centrifugal.OilFilled.SingleCompressor">
+      <HintPath>D:\Users\010254\Desktop\离心机数据\调用DLL\调用DLL\.NET8引用\WaterCooled.Centrifugal.OilFilled.SingleCompressor.dll</HintPath>
+    </Reference>
+    <Reference Include="WaterCooled.Centrifugal.OilFilled.SingleCompressorReverse">
+      <HintPath>D:\Users\010254\Desktop\离心机数据\调用DLL\调用DLL\.NET8引用\WaterCooled.Centrifugal.OilFilled.SingleCompressorReverse.dll</HintPath>
+    </Reference>
+    <Reference Include="WaterCooled.Centrifugal.OilFilled.TwoStage">
+      <HintPath>D:\Users\010254\Desktop\离心机数据\调用DLL\调用DLL\.NET8引用\WaterCooled.Centrifugal.OilFilled.TwoStage.dll</HintPath>
+    </Reference>
+    <Reference Include="WaterCooled.Centrifugal.OilFilled.TwoStage.Data">
+      <HintPath>D:\Users\010254\Desktop\离心机数据\调用DLL\调用DLL\.NET8引用\WaterCooled.Centrifugal.OilFilled.TwoStage.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="WaterCooled.Centrifugal.OilFilled.VintageB">
+      <HintPath>D:\Users\010254\Desktop\离心机数据\调用DLL\调用DLL\.NET8引用\WaterCooled.Centrifugal.OilFilled.VintageB.dll</HintPath>
+    </Reference>
+    <Reference Include="WaterCooled.Centrifugal.Price.CN">
+      <HintPath>D:\Users\010254\Desktop\离心机数据\调用DLL\调用DLL\.NET8引用\WaterCooled.Centrifugal.Price.CN.dll</HintPath>
+    </Reference>
+    <Reference Include="WaterCooled.Centrifugal.Rating">
+      <HintPath>D:\Users\010254\Desktop\离心机数据\调用DLL\调用DLL\.NET8引用\WaterCooled.Centrifugal.Rating.dll</HintPath>
+    </Reference>
+    <Reference Include="WaterCooled.Centrifugal.SoundPower">
+      <HintPath>D:\Users\010254\Desktop\离心机数据\调用DLL\调用DLL\.NET8引用\WaterCooled.Centrifugal.SoundPower.dll</HintPath>
+    </Reference>
+    <Reference Include="WaterCooled.Centrifugal.Starters">
+      <HintPath>D:\Users\010254\Desktop\离心机数据\调用DLL\调用DLL\.NET8引用\WaterCooled.Centrifugal.Starters.dll</HintPath>
+    </Reference>
+    <Reference Include="WaterCooled.Centrifugal.TS">
+      <HintPath>D:\Users\010254\Desktop\离心机数据\调用DLL\调用DLL\.NET8引用\WaterCooled.Centrifugal.TS.dll</HintPath>
+    </Reference>
+    <Reference Include="WaterProperties">
+      <HintPath>D:\Users\010254\Desktop\离心机数据\调用DLL\调用DLL\.NET8引用\WaterProperties.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

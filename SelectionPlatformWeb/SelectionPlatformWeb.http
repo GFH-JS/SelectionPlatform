@@ -1,0 +1,6 @@
+@SelectionPlatformWeb_HostAddress = http://localhost:5054
+
+GET {{SelectionPlatformWeb_HostAddress}}/CentrifugeSelection/GetTime
+Accept: application/json
+
+###

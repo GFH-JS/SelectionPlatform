@@ -1,0 +1,71 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <InvariantGlobalization>true</InvariantGlobalization>
+    <UserSecretsId>f4506f91-83a2-4d3e-806d-c46ed256851b</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Core.Messages.mdb" />
+    <None Remove="EngineProgramDataNew.mdb" />
+    <None Remove="TST.mdb" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Core.Messages.mdb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="EngineProgramDataNew.mdb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TST.mdb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="8.0.0" />
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="9.0.0" />
+    <PackageReference Include="log4net" Version="2.0.17" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="8.0.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.8">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Logging.Log4Net.AspNetCore" Version="8.0.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.21.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+    <PackageReference Include="System.Data.OleDb" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SelectionPlatform.Auth\SelectionPlatform.Auth.csproj" />
+    <ProjectReference Include="..\SelectionPlatform.Configuration\SelectionPlatform.Configuration.csproj" />
+    <ProjectReference Include="..\SelectionPlatform.Core\SelectionPlatform.Core.csproj" />
+    <ProjectReference Include="..\SelectionPlatform.EntityFramework\SelectionPlatform.EntityFramework.csproj" />
+    <ProjectReference Include="..\SelectionPlatform.IRepository\SelectionPlatform.IRepository.csproj" />
+    <ProjectReference Include="..\SelectionPlatform.IServices\SelectionPlatform.IServices.csproj" />
+    <ProjectReference Include="..\SelectionPlatform.Mapping\SelectionPlatform.Mapping.csproj" />
+    <ProjectReference Include="..\SelectionPlatform.Models\SelectionPlatform.Models.csproj" />
+    <ProjectReference Include="..\SelectionPlatform.Repository\SelectionPlatform.Repository.csproj" />
+    <ProjectReference Include="..\SelectionPlatform.Services\SelectionPlatform.Services.csproj" />
+    <ProjectReference Include="..\SelectionPlatform.Utility\SelectionPlatform.Utility.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Properties.Common">
+      <HintPath>D:\Users\010254\Desktop\离心机数据\调用DLL\调用DLL\.NET8引用\Properties.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="RefrigerantProperties.NIST">
+      <HintPath>D:\Users\010254\Desktop\离心机数据\调用DLL\调用DLL\.NET8引用\RefrigerantProperties.NIST.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
